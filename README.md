@@ -38,9 +38,32 @@ Con un for en Python, se van graficando las señales con los distintos niveles d
 
 Con el ruido, la señal es muy difícil de identificar para una persona; se verá más adelante cómo decodificar esta señal.
 
+Se muestran el resto de gráficas con los distintos SNR solicitados:
+
+
+Para SNR = -1:
+
+![alt text 1](imagenes/SNR_-1.png)
+
+Para SNR = 0:
+
+![alt text 1](imagenes/SNR_0.png)
+
+Para SNR = 1:
+
+![alt text 1](imagenes/SNR_1.png)
+
+Para SNR = 2:
+
+![alt text 1](imagenes/SNR_2.png)
+
+Para SNR = 3:
+
+![alt text 1](imagenes/SNR_3.png)
+
 ## 4. Graficar la densidad espectral de potencia de la señal con el método de Welch (SciPy), antes y después del canal ruidoso.
 
-Esta gráfica se puede hacer para los distintos niveles de SNR, pero como el resultado es muy similar, se muestra cuando SNR = -2.
+Esta gráfica se puede hacer para los distintos niveles de SNR, pero como el resultado es muy similar, se muestra cuando SNR = -2, SNR= 0 y SNR = 3.
 
 ![alt text 1](imagenes/densidad_espectral_de_potencia.png)
 
